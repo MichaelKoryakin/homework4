@@ -23,15 +23,15 @@ public class Main {
             System.out.println("Скорость " + speed + " превышена, придет штраф");
         }
 
-        int PersonAge = 21;
-        if (PersonAge >= 2 && PersonAge <= 6) {
-            System.out.println("Если возраст человека равен " + PersonAge + ", то ему нужно ходить в детский сад");
-        } else if (PersonAge >= 7 && PersonAge <= 17) {
-            System.out.println("Если возраст человека равен " + PersonAge + ", то ему нужно ходить в школу");
-        } else if (PersonAge >= 18 && PersonAge <= 24) {
-            System.out.println("Если возраст человека равен " + PersonAge + ", то его место в университете");
-        } else if (PersonAge > 24) {
-            System.out.println("Если возраст человека равен " + PersonAge + ", то ему пора ходить на работу");
+        int personAge = 21;
+        if (personAge >= 2 && personAge <= 6) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в детский сад");
+        } else if (personAge >= 7 && personAge <= 17) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в школу");
+        } else if (personAge >= 18 && personAge <= 24) {
+            System.out.println("Если возраст человека равен " + personAge + ", то его место в университете");
+        } else if (personAge > 24) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему пора ходить на работу");
         }
 
         int childAge = 15; // Можно проверить разные возрасты
